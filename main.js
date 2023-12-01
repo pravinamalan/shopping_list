@@ -56,7 +56,7 @@ function addItemToStorage(item) {
 }
 function getItemFromStorage() {
   let itemsFromStorage;
-  if (localStorage.getItem("items" === null)) {
+  if (localStorage.getItem('items') === null) {
     itemsFromStorage = [];
   } else {
     itemsFromStorage = JSON.parse(localStorage.getItem("items"));
